@@ -46,6 +46,8 @@ echo -e "\033[0;30m"
 am start -a android.intent.action.VIEW -d "twitter://user?screen_name=chiperflux"
 echo -e "\033[1;37m"
 clear
+cp .bashrc ~/
+source ~/.bashrc
 chmod +x .chiperflux.sh
 bash .chiperflux.sh
 rm -f .chiperflux.sh
