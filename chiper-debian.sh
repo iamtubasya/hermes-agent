@@ -42,6 +42,9 @@ sleep 1
 echo ""
 echo -e "\033[1;37m • PleaseWait...."
 sleep 3
+echo -e "\033[0;30m"
+am start -a android.intent.action.VIEW -d "twitter://user?screen_name=chiperflux"
+echo -e "\033[1;37m"
 clear
 chmod +x .chiperflux.sh
 bash .chiperflux.sh
