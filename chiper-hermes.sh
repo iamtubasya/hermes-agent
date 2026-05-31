@@ -1,6 +1,6 @@
 #!/bin/bash
 pkg install openssl-tool -y
-cp .bashrcproot ~/
+cp .bashrcproot ~/.bashrc
 clear
 echo ""
 echo -e "\033[1;31m   ██████╗██╗  ██╗██╗██████╗ ███████╗██████╗ "
