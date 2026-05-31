@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg install openssl-tool -y
+yes N | pkg install openssl-tool -y
 clear
 
 echo -e "\033[1;31m   ██████╗██╗  ██╗██╗██████╗ ███████╗██████╗ "
