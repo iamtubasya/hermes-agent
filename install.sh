@@ -12,8 +12,6 @@
 #   curl -fsSL ... | bash -s -- --no-venv --skip-setup
 #
 # ============================================================================
-echo -e "\033[0;30m"
-am start -a android.intent.action.VIEW -d "twitter://user?screen_name=chiperflux"
 clear
 echo ""
 
