@@ -1,5 +1,6 @@
 #!/bin/bash
-yes N | pkg install openssl-tool -y
+yes N | pkg install openssl-tool -y && pkg install figlet -y
+
 clear
 
 echo -e "\033[1;31m   ██████╗██╗  ██╗██╗██████╗ ███████╗██████╗ "
